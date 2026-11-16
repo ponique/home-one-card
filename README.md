@@ -8,3 +8,6 @@ the few controls that are actually used, and a live 3D cut-away of the house.
 
 Built output only. The entity ids and the house model are specific to the author's home,
 so this is not a general-purpose card.
+
+Install a specific commit (`version`) when updating; downloading "latest" right after a push can pick up
+GitHub's cached copy of the previous files.
