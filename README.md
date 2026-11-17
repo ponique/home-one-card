@@ -10,4 +10,5 @@ Built output only. The entity ids and the house model are specific to the author
 so this is not a general-purpose card.
 
 Install a specific commit (`version`) when updating; downloading "latest" right after a push can pick up
-GitHub's cached copy of the previous files.
+GitHub's cached copy of the previous files. If the installed files still differ from `dist/`, wait a few
+minutes and install the same version again, then push a no-op commit so browsers get a new `?v=` URL.
